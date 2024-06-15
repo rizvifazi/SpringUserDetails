@@ -12,7 +12,7 @@ import lombok.ToString;
 @Configuration
 @PropertySource("file:\\C:\\user_properties\\user.properties")
 @ConfigurationProperties(prefix="user")
-@Data
+@Data //GetSet
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
